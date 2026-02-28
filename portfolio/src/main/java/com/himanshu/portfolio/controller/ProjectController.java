@@ -10,7 +10,11 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/projects")
-@CrossOrigin(origins = {"https://himanshumishra.net", "https://www.himanshumishra.net"})
+@CrossOrigin(origins = {
+	    "https://himanshumishra.net",
+	    "https://www.himanshumishra.net",
+	    "https://portfolio-full-stack-ciubds6dx-developersplace-projects.vercel.app"
+	})
 public class ProjectController {
 	private final ProjectService projectService;
 	
