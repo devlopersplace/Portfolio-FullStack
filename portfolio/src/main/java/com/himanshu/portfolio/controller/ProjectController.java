@@ -2,7 +2,6 @@ package com.himanshu.portfolio.controller;
 
 import com.himanshu.portfolio.entity.Project;
 import com.himanshu.portfolio.service.ProjectService;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -11,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/projects")
-@CrossOrigin(origins = "https://himanshumishra.net")
+@CrossOrigin(origins = {"https://himanshumishra.net", "https://www.himanshumishra.net"})
 public class ProjectController {
 	private final ProjectService projectService;
 	
