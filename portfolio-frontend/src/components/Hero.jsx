@@ -66,9 +66,9 @@ const Hero = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="text-cyan-400 font-mono mb-6 text-sm md:text-base tracking-widest uppercase"
+          className="text-cyan-400 font-bold mb-6 text-xl md:text-3xl tracking-[0.3em] uppercase"
         >
-          {">"} System.out.println("Hello, World!");
+          Hola Amigo
         </motion.p>
 
         <motion.h1
