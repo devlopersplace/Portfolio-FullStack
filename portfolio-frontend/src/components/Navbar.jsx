@@ -15,7 +15,7 @@ const Navbar = () => {
         
         {/* Your Elite Logo */}
         <div className="text-xl font-bold text-white tracking-tight cursor-pointer">
-          Himanshu<span className="text-cyan-400">.dev</span>
+          Himanshu<span className="text-cyan-400">.Net</span>
         </div>
 
         {/* Desktop Navigation Links */}
